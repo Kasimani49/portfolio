@@ -38,10 +38,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand>
-        <Navbar.Toggle
+        {/* <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
             updateExpanded(expand ? false : "expanded");
@@ -50,7 +47,7 @@ function NavBar() {
           <span></span>
           <span></span>
           <span></span>
-        </Navbar.Toggle>
+        </Navbar.Toggle> */}
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
